@@ -21,8 +21,8 @@ describe("Surveys", () => {
 
     it("Should be able to get all surveys", async () => {
         await request(app).post("/surveys").send({
-            title: "Title Example2",
-            description: "Description Example2"
+            title: "Title Example23",
+            description: "Description Example23"
         })
 
         const response = await request(app).get("/surveys")
